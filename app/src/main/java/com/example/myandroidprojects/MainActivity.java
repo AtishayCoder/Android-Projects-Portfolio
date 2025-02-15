@@ -5,6 +5,8 @@ import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.RecyclerView;
 
+import sun.security.ec.point.ProjectivePoint;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -22,9 +24,10 @@ public class MainActivity extends AppCompatActivity {
                 new Project("Gola Sizzlers (Restaurant App)", "A simple app for a restaurant. Shows the user about what is available in the eatery. I learnt about Intents, ListView and CardView.", R.drawable.hungry_developer),
                 new Project("Bucket List App", "An app that lists all off the things I want to do and the places I want to visit.", R.drawable.bucket_list),
                 new Project("Self Promo App", "An app that helps you to create a self-promo message. I learnt about kotlin, checkboxes and styled edit texts.", R.drawable.self_promo),
-                new Project("Registration app", "An app that can register you for a service. I practiced implicit intents and creating stylish forms.", R.drawable.registration),
+                new Project("Registration App", "An app that can register you for a service. I practiced implicit intents and creating stylish forms.", R.drawable.registration),
                 new Project("Record Keeper", "It keeps track of your running and cycling records. I learnt about fragments and the bottom navigation bar widget.", R.drawable.record_keeper),
-                new Project("Calculator", "It is a simple calculator app made with Kotlin.", R.drawable.calculator
+                new Project("Calculator", "It is a simple calculator app made with Kotlin.", R.drawable.calculator),
+                new Project("Get It Done", "A to do app.", R.drawable.getItDone)
         };
 
         ProjectsAdapter adapter = new ProjectsAdapter(projects);
