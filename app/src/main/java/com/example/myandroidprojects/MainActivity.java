@@ -28,7 +28,8 @@ public class MainActivity extends AppCompatActivity {
                 new Project("Record Keeper", "It keeps track of your running and cycling records. I learnt about fragments and the bottom navigation bar widget.", R.drawable.record_keeper),
                 new Project("Calculator", "It is a simple calculator app made with Kotlin.", R.drawable.calculator),
                 new Project("Get It Done", "A to do app.", R.drawable.getItDone),
-                new Project("Palindrome Checker", "An app to check if a certain word is a palindrome", R.drawable.getIttDone)
+                new Project("Palindrome Checker", "An app to check if a certain word is a palindrome", R.drawable.getIttDone),
+                new Project("Random number generator", "My first app with Jetpack Compose! I got familiar with the widgets and new style", R.drawable.calculator)
         };
 
         ProjectsAdapter adapter = new ProjectsAdapter(projects);
